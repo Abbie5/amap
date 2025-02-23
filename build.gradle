@@ -1,5 +1,11 @@
+buildscript {
+    configurations.classpath {
+        resolutionStrategy.activateDependencyLocking()
+    }
+}
+
 plugins {
-    id 'fabric-loom' version '1.9-SNAPSHOT'
+    id 'fabric-loom' version '1.9.+'
     id 'maven-publish'
 }
 
@@ -10,6 +16,15 @@ base {
     archivesName = project.archives_base_name
 }
 
+dependencyLocking {
+    lockAllConfigurations()
+    lockMode = LockMode.STRICT
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
 
 repositories {
     // Add repositories to retrieve artifacts from in here.

@@ -1,0 +1,31 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+com.google.code.findbugs:jsr305:3.0.2=classpath
+com.google.code.gson:gson:2.10.1=classpath
+com.google.errorprone:error_prone_annotations:2.23.0=classpath
+com.google.guava:failureaccess:1.0.2=classpath
+com.google.guava:guava:33.0.0-jre=classpath
+com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava=classpath
+commons-io:commons-io:2.15.1=classpath
+fabric-loom:fabric-loom.gradle.plugin:1.9.2=classpath
+net.fabricmc:access-widener:2.1.0=classpath
+net.fabricmc:fabric-loom-native:0.2.0=classpath
+net.fabricmc:fabric-loom:1.9.2=classpath
+net.fabricmc:lorenz-tiny:4.0.2=classpath
+net.fabricmc:mapping-io:0.6.1=classpath
+net.fabricmc:mercury:0.4.2=classpath
+net.fabricmc:stitch:0.6.2=classpath
+net.fabricmc:tiny-mappings-parser:0.3.0+build.17=classpath
+net.fabricmc:tiny-remapper:0.10.4=classpath
+org.cadixdev:at:0.1.0-rc1=classpath
+org.cadixdev:bombe:0.3.4=classpath
+org.cadixdev:lorenz:0.5.7=classpath
+org.checkerframework:checker-qual:3.41.0=classpath
+org.jetbrains.kotlin:kotlin-metadata-jvm:2.0.20=classpath
+org.ow2.asm:asm-analysis:9.7.1=classpath
+org.ow2.asm:asm-commons:9.7.1=classpath
+org.ow2.asm:asm-tree:9.7.1=classpath
+org.ow2.asm:asm-util:9.7.1=classpath
+org.ow2.asm:asm:9.7.1=classpath
+empty=
